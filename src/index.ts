@@ -13,7 +13,6 @@ const auth = new google.auth.GoogleAuth(googleAuthOpts);
 
 async function main() {
   const options = program.opts();
-  console.log(options);
   const bucketName = options.bucket;
   const gcpProjectId = options.project;
   if (!bucketName) {
