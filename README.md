@@ -1,0 +1,2 @@
+# create_backend_bucket_with_cdn_settings
+googleapis を使ってBackend Bucketを作成し、Cloud CDNを設定するサンプル
